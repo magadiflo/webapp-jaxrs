@@ -1,7 +1,9 @@
 package org.magadiflo.webapp.jaxws.models;
 
 import jakarta.persistence.*;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 @Entity
 @Table(name = "cursos")
 public class Curso {
