@@ -3,7 +3,7 @@ package org.magadiflo.webapp.jaxws.models;
 import jakarta.persistence.*;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+@XmlRootElement //Solo va cuando se trabaja con XML. Para JSON no va, es en automático
 @Entity
 @Table(name = "cursos")
 public class Curso {
